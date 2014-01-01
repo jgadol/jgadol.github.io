@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>השוואת מחירים לטיפולי שיניים</title>
+    <meta name="description" content="השוואת מחירים לאיפולי שיניים" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/webflow.css">
+    <link rel="stylesheet" type="text/css" href="css/landingmobile.webflow.css" media="screen">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/formValidation.js"></script>
+</head>
+<body>
+    <div class="top turq">
+        <div class="w-container top-content">
+            <div class="w-row">
+                <div class="w-col w-col-5">
+                    <h1>השוואת מחירים<br>
+                        לטיפולי שיניים</h1>
+                    <div>
+                        <h4 class="subtitle turq">עד 40% הנחה ממחיר השוק!</h4>
+                    </div>
+                </div>
+                <div class="w-col w-col-7 model-box">
+                    <img src="images/face7.png" alt="face7.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="promo turq">
+        <div class="w-container promo-content">
+            <div class="promo-text">
+                <strong>טיפולי שיניים - רק ע״י מומחים!</strong>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="w-container">
+            <div class="w-row">
+                <div class="w-col w-col-5">
+                    <div class="w-container form-box turq">
+                        <a class="call-to-action turq" href="#Name" style="margin-right: 4px;">בצעו השוואת מחירים</a>
+                        <div class="note" style="margin-right: 4px;">מלאו והגישו את הטופס הקצר למטה</div>
+                        <div class="w-form">
+                            <form action="https://leads.leaddistributionsystems.com/genericPostlead.php" method="post" id="theForm" name="wf-form-lead-form" data-name="lead form">
+                                <div id="validationMessage1" class="validation_error_message"></div>
+                                <div id="validationImage1" class="validation_image_div">&nbsp;</div>
+
+                                <input class="w-input-new" type="text" id="Name_helper" name="Name_helper"
+                                    placeholder="שם מלא"
+                                    data-name="Name_helper" />
+                                <!--autofocus="autofocus"-->
+
+                                <div id="validationMessage2" class="validation_error_message"></div>
+                                <div id="validationImage2" class="validation_image_div">&nbsp;</div>
+                                <input class="w-input-new" type="text" id="Phone_helper" name="Phone_helper" maxlength="12"
+                                    placeholder="טלפון"
+                                    data-name="Phone_helper" />
+
+                                <div id="validationMessage3" class="validation_error_message"></div>
+                                <div id="validationImage3" class="validation_image_div">&nbsp;</div>
+                                <select class="w-select-new" name="Procedure_Type[]" id="Procedure_Type" data-name="Procedure_Type[]">
+                                    <option value="-1">סוג טיפול</option>
+                                    <option value="-1">- - - - -</option>
+                                    <option value="השתלות שיניים">השתלות שיניים</option>
+                                    <option value="שיקום הפה">שיקום הפה</option>
+                                    <option value="יישור שיניים">יישור שיניים</option>
+                                    <option value="הלבנת שיניים">הלבנת שיניים</option>
+                                    <option value="ציפוי שיניים">ציפוי שיניים</option>
+                                    <option value="טיפולי שיניים בהרדמה מלאה">טיפולי שיניים בהרדמה מלאה</option>
+                                    <option value="טיפולי שיניים">טיפולי שיניים</option>
+                                </select>
+
+                                <div id="validationMessage4" class="validation_error_message"></div>
+                                <div id="validationImage4" class="validation_image_div">&nbsp;</div>
+                                <select class="w-select-new" name="Region[]" id="Region" data-name="Region[]">
+                                    <option value="-1">אזור</option>
+                                    <option value="-1">- - - - -</option>
+                                    <option value="מחוז הצפון">מחוז הצפון</option>
+                                    <option value="טבריה ומסביב">טבריה ומסביב</option>
+                                    <option value="עכו - נהריה">עכו - נהריה</option>
+                                    <option value="חיפה">חיפה</option>
+                                    <option value="הקריות">הקריות</option>
+                                    <option value="חדרה - קיסריה">חדרה - קיסריה</option>
+                                    <option value="-1">-----</option>
+                                    <option value="אזורים בשרון">אזורים בשרון</option>
+                                    <option value="נתניה והסביבה">נתניה והסביבה</option>
+                                    <option value="רעננה - כפר סבא">רעננה - כפר סבא</option>
+                                    <option value="רמת השרון - הרצליה">רמת השרון - הרצליה</option>
+                                    <option value="-1">-----</option>
+                                    <option value="גוש דן והמרכז">גוש דן והמרכז</option>
+                                    <option value="תל אביב יפו">תל אביב יפו</option>
+                                    <option value="רמת גן - גבעתיים">רמת גן - גבעתיים</option>
+                                    <option value="בקעת אונו">בקעת אונו</option>
+                                    <option value="פתח תקווה וסביבתה">פתח תקווה וסביבתה</option>
+                                    <option value="ראשון לציון">ראשון לציון</option>
+                                    <option value="חולון - בת ים">חולון - בת ים</option>
+                                    <option value="-1">-----</option>
+                                    <option value="אזור השפלה">אזור השפלה</option>
+                                    <option value="רמלה - לוד">רמלה - לוד</option>
+                                    <option value="נס ציונה - רחובות">נס ציונה - רחובות</option>
+                                    <option value="אשדוד - גדרה">אשדוד - גדרה</option>
+                                    <option value="מודיעין - מכבים - רעות">מודיעין - מכבים - רעות</option>
+                                    <option value="-1">-----</option>
+                                    <option value="סובב ירושלים">סובב ירושלים</option>
+                                    <option value="-1">-----</option>
+                                    <option value="דרום הארץ">דרום הארץ</option>
+                                    <option value="נפת אשקלון">נפת אשקלון</option>
+                                    <option value="באר שבע והסביבה">באר שבע והסביבה</option>
+                                </select>
+
+                                <!--START hidden fields-->
+                                <input type="hidden" id="First_Name" name="First_Name" value="" />
+                                <input type="hidden" id="Last_Name" name="Last_Name" value="" />
+                                <input type="hidden" id="Phone_Prefix" name="Phone_Prefix" value="" />
+                                <input type="hidden" id="Phone" name="Phone" value="" />
+                                <input type="hidden" name="System_ID" value="paid" />
+                                <input type="hidden" name="SRC" value="mm-dental" />
+                                <input type="hidden" name="Landing_Page" value="http://onlylowprice.com/mobile/mm-m-dental-01.htm" />
+                                <input type="hidden" name="Sub_ID" value="mm-dental" />
+                                <input type="hidden" name="Pub_ID" value="" />
+                                <input type="hidden" name="form" id="form" value="1" />
+                                <input type="hidden" name="TYPE" id="TYPE" value="29" />
+                                <input type="hidden" name="Redirect_URL" id="Redirect_URL" value="http://onlylowprice.com/t/thx.htm" />
+                                <input class="w-button submit turq" type="submit" id="submit" value="קבלו הצעת מחיר" data-wait="שולח..." />
+                                <!--START hidden fields-->
+
+                            </form>
+                        </div>
+                        <div class="note" style="margin-right: 7px;">הפרטים שהגשתם יישארו חסויים</div>
+                    </div>
+                </div>
+                <div class="w-col w-col-7">
+                    <div class="w-container w-hidden-small w-hidden-tiny content-box">
+                        <p class="main-text"><strong>השתלות שיניים ושיקום הפה</strong> - פתרונות לשיקום פה (השתלות, כתרים, שיניים תותבות, בעיות חניכיים ועוד) גם בטכנולוגיית לייזר.</p>
+                        <p class="main-text"><strong>הלבנת שיניים</strong> - הפתרון היעיל להסרת כתמים שהצטברו על השיניים. טיפול קצר במספר שיטות, להלבנת שיניים מושלמת.</p>
+                        <p class="main-text"><strong>ציפוי שיניים</strong> - הפתרון לפגמים אסתטיים כמו: רווח בשיניים, שיניים שבורות או לצורך שינוי צורה/גודל ו/או צבע השן ע"י ציפויי חרסינה ועוד.</p>
+                        <div class="main-list turq">הנחה של 20% - 40% ממחיר השוק</div>
+                        <div class="main-list turq">עד 4 הצעות מחיר באזור מגוריכם מרופאים מומחים בלבד</div>
+                        <div class="main-list turq color">בצעו השוואת מחירים ובחרו את ההצעה המשתלמת ביותר</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="w-container">
+            <div>השוואת מחירים לצרכן - השיטה הבדוקה לחסכון במחיר</div>
+        </div>
+    </div>
+</body>
+</html>
